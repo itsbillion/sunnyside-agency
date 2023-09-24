@@ -282,6 +282,13 @@ p, li {
     color: #25564b;
 }
 
+@media screen and (max-width: 500px) {
+    body {
+        display: block;
+        margin-inline: auto;
+    }
+}
+
 @media (min-width: 500px) and (max-width: 992px) {
     .grid-container {
         max-width: 500px;
